@@ -1,18 +1,20 @@
-Object Detection Application
+#Object Detection Application
 An interactive object detection application built with Python, leveraging Streamlit for the frontend and PyTorch's Faster R-CNN for detecting objects in images. This application uses a pre-trained Faster R-CNN model trained on the COCO dataset to predict object categories and confidence scores, displaying them with bounding boxes.
 
-Features
+#Features
 Upload and Detect: Upload images in .jpg, .jpeg, or .png formats to detect objects.
 Bounding Boxes: Displays objects with yellow bounding boxes.
 Confidence Scores: Each bounding box includes the object's confidence score in percentages.
 Highlighting: Black text with a white background ensures legible object labels.
 Streamlit Interface: Provides a user-friendly and interactive web app interface.
 Real-time Predictions: Uses the Faster R-CNN model for fast and accurate predictions.
-Screenshots
+
+
+#Screenshots
 Main Interface:![Screenshot 2024-12-04 012500](https://github.com/user-attachments/assets/cc6fa34c-3038-498e-834d-3b13f254224f)
 
 
-Prerequisites
+#Prerequisites
 Ensure you have the following installed on your system:
 
 Python 3.8+
@@ -65,7 +67,8 @@ object-detection-app/
 ├── requirements.txt      # Dependencies
 ├── README.md             # Documentation
 ├── example_screenshot.png # Screenshot of the app
-How It Works
+
+#How It Works
 Upload Image: Users upload an image via the Streamlit interface.
 Model Processing: The uploaded image is passed to a Faster R-CNN model (pre-trained on the COCO dataset).
 Bounding Boxes:
@@ -76,7 +79,7 @@ Example Output
 Uploaded Image
 Input an image with objects (e.g., people, cars, animals).
 
-Output
+#Output
 Objects detected are displayed with yellow bounding boxes.
 Each bounding box includes a label with:
 Object name (e.g., "Person").
@@ -91,7 +94,8 @@ Edit the .main class in the set_styles function.
 Known Issues
 Large images may take longer to process.
 The app relies on a pre-trained model and may not detect non-COCO objects.
-License
+
+#License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Acknowledgments
