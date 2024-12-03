@@ -1,4 +1,4 @@
-#Object Detection Application
+# Object Dectection App  
 An interactive object detection application built with Python, leveraging Streamlit for the frontend and PyTorch's Faster R-CNN for detecting objects in images. This application uses a pre-trained Faster R-CNN model trained on the COCO dataset to predict object categories and confidence scores, displaying them with bounding boxes.
 
 #Features
