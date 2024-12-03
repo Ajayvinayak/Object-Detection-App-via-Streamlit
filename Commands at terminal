@@ -1,0 +1,4 @@
+Commands used at terminal (VS CODE)
+
+cd C:\Users\pc name\folder name
+streamlit run obj_det_app.py 
